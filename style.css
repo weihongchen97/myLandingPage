@@ -1,8 +1,29 @@
 Body{
-
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+    background-color: rgba(222, 184, 135, 0.616);
 }
 
 h1{
     background-color: burlywood;
     color: white;
+}
+.section1{
+    padding: 64px 256px;
+    display: flex;
+}
+.section1Left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+}
+.section2{
+    text-align: center;
+}
+.footer {
+
 }
